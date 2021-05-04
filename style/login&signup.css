@@ -1,0 +1,141 @@
+@font-face {
+    font-family: courier-regular;
+    src: url(../font/CourierPrime-Regular.ttf);
+}
+@font-face {
+    font-family: courier-bold;
+    src: url(../font/CourierPrime-Bold.ttf);
+}
+@font-face {
+    font-family: courier-italic;
+    src: url(../font/CourierPrime-Italic.ttf);
+}
+
+@font-face {
+    font-family: comforta-regular;
+    src: url(../font/Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family: byquinnie;
+    src: url(../font/Byquinnie_thick-Regular.ttf);
+}
+
+* {
+    font-family: courier-regular;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin: 0%;
+    height: fit-content;
+    
+}
+
+.side1 {
+    background-color: #A8DEE0;
+    
+}
+
+.side2 {
+    background-color: #A8DEE0;
+    
+    
+}
+
+.middle {
+    background-color: whitesmoke;
+}
+
+#img1 {
+    position: relative;
+    width: 45%;
+    height: auto;
+    left: 25%;
+    top: 2%;   
+    
+     
+}
+
+.container {
+    box-shadow: black 5px 5px ;
+    border: solid black 0.5px;
+    margin: 3vw;
+    padding: 3vw;
+    padding-bottom: 8em;
+    border-radius: 8px;
+    background-color: #f8efd8;
+
+}
+
+.title {
+    font-family: comforta-regular;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.box h5 {
+    font-family: courier-regular;
+    margin-bottom: 1%;
+    font-size: 100%;
+}
+
+.input-box {
+    block-size: 2vw;
+    border: none;
+    border-bottom: solid black 2px;
+    background-color: #fef8ea;
+}
+
+.button {
+    background-color: #fbc78d;
+    border: solid black 0px;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    font-family: courier-bold;
+    font-size: 1em;
+    position: relative;
+    left: 80%; 
+    box-shadow: black 2px 2px;
+
+}
+
+
+.button2 {
+    background-color: #fbc78d;
+    border: solid black 0px;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    font-family: courier-bold;
+    font-size: 1em;
+    float: left;
+    position: relative;
+    left: 40%;
+    box-shadow: black 2px 2px;
+    
+
+}
+#fp {
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+    font-family: comforta-regular;
+    float: left;
+}
+
+.img {
+    position: relative;
+    width: auto;
+    height: 25%;
+    margin-top: -15%;
+    left: 10%;
+    
+}
+
+p {
+    font-family: courier-regular;
+    text-align: center;
+}
+
