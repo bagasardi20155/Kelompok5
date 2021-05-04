@@ -1,23 +1,23 @@
 @font-face {
     font-family: courier-regular;
-    src: url(../font/CourierPrime-Regular.ttf);
+    src: url(../assets/font/CourierPrime-Regular.ttf);
 }
 @font-face {
     font-family: courier-bold;
-    src: url(../font/CourierPrime-Bold.ttf);
+    src: url(../assets/font/CourierPrime-Bold.ttf);
 }
 @font-face {
     font-family: courier-italic;
-    src: url(../font/CourierPrime-Italic.ttf);
+    src: url(../assets/font/CourierPrime-Italic.ttf);
 }
 
 @font-face {
     font-family: comforta-regular;
-    src: url(../font/Comfortaa-Regular.ttf);
+    src: url(../assets/font/Comfortaa-Regular.ttf);
 }
 @font-face {
     font-family: byquinnie;
-    src: url(../font/Byquinnie_thick-Regular.ttf);
+    src: url(../assets/font/Byquinnie_thick-Regular.ttf);
 }
 
 * {
