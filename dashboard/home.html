@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <link rel="icon" type="image/png" href="../assets/img/BelajarIn (2).png">
+    <title>BelajarIn | Dashboard</title>
+    <script type="text/javascript" src="../style/jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../style/jquery/js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="../style/jquery/js/jquery-ui.css">
+    <link rel="stylesheet" href="../style/style_dashboard.css">
+    <script type="text/javascript" src="../style/main_dashboard.js"></script>
+
+</head>
+<body class="preload">
+    <form action="#" method="POST" class="form-posting">
+
+        <textarea name="note" id="note" placeholder="Make a Note To Your Class"></textarea>
+        <p>
+        <select name="classes" id="class" style="margin-top: 3vh; cursor: pointer;">
+            <option value="selectClass" id="selectClass">Select a class . .</option>
+            <option value="class1">Design Web Smt 2</option>
+            <option value="class2">Algoritma dan Struktur Data</option>
+        </select>
+        <span style="margin-left: 6vw;">
+            <a href="#" id="clear">Lost</a> or <a href="#" onclick="underDev()">Post</a>
+        </span>
+        </p>
+    
+    </form>
+    
+    <div id="activities">
+    
+        <img src="../assets/img/pixelated-bg.png" alt="pixelated-bg">
+        <p>Your Class Activities</p>
+    
+    </div>
+    
+    <div class="posts">
+    
+        <div class="post1">
+    
+            <img src="../assets/img/profile-2.png" alt="profile-pict" height ="55vh" width ="55vw" style="vertical-align: middle; border-radius: 50%;">
+            <p style="display: inline-block; vertical-align: middle;"><b id="post-name">Irma Nur Rochmah</b> posted to <b id="post-class">Design Web Smt 2</b> 
+                <br><span id="post-role">Lecturer</span> <br>Apr 28 2021</p>
+    
+            <hr style="margin: 0px 50px 0px -30px;">
+    
+            <img src="../assets/img/tugas.png" alt="tugas" style="width: 35vw; height: auto; margin: 5vh 2vw;">
+    
+            <hr style="margin: 0px 50px 0px -30px;">
+            
+            <div class="reaction">
+    
+                <div id="like" style="text-align: center;">
+                    <img src="../assets/icon/like.png" alt="like" style="width: 4vh; vertical-align: middle; cursor: pointer;" data-position="bottom" data-delay="50">
+                    <p style="display: inline-block; vertical-align:sub;" id="count-like">Like</p>
+                </div>
+                <div id="comment">
+                    <img src="../assets/icon/comments.png" alt="like" style="width: 4vh; vertical-align: middle; cursor: pointer;" onclick="underDev()">
+                    <p style="display: inline-block; vertical-align:sub;">Comments</p>
+                </div>
+                
+            </div>
+    </div>
+</body>
+</html>
